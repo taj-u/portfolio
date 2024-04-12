@@ -71,6 +71,18 @@
   background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
 }
 
+.about-skill:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.about-achievements {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
 .about-achievement {
   display: flex;
   flex-direction: column;
@@ -94,17 +106,12 @@
   font-weight: 500;
 }
 
-.about-achievements .about-achievements hr {
-    border: 5px solid red;
+.about-achievements hr {
+  border: 1px solid ;
+  margin: 10px;
 }
-.about-skill:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-.about-skill:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-  }
+
+
 .about-achievement:hover {
   transform: scale(1.1);
   transition: 0.5s;
