@@ -1,6 +1,6 @@
-import React from 'react'
-import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
+import React from 'react';
+import './Hero.css';
+import profile_img from '../../assets/profile_img.svg';
 const Hero = () => {
 return (
 <div className='hero'>
