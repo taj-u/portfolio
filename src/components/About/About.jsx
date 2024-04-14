@@ -15,11 +15,8 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>A lifelong learner, problem-solver, curious explorer, and growth-oriented individual, who enjoys
-                            collaborating well with others and striving for the team’s success.</p>
-                        <p>And a reliable and efficient worker who
-                            can achieve high-quality results on time. I’m also enthusiastic about SWE, Web3, ML, DNN, Blockchain, etc.
-                            domains.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "88%" }} /></div>
