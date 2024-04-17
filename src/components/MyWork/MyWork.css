@@ -28,7 +28,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-
 }
 
 .mywork-container img {
@@ -40,7 +39,7 @@
 }
 
 .mywork-container img:hover {
-  transform: scale(1.10);
+  transform: scale(1.1);
   border: 4px solid #ccaabb;
   border-radius: 10px;
   transition: 0.3s;
@@ -63,4 +62,40 @@
   border-color: aquamarine;
   transform: scale(1.05);
   gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .mywork {
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  
+  .mywork-title h1 {
+    padding: 0;
+    font-size: 50px;
+  }
+  
+  .mywork-title img {
+    width: 130px;
+    margin-right: -20px;
+  }
+  
+  .mywork-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .mywork-container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mywork-showmore {
+    padding: 20px 40px;
+    font-size: 18px;
+    margin: 50px auto;
+    cursor: pointer;
+  }
+  
 }
